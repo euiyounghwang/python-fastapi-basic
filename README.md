@@ -10,4 +10,5 @@ poetry config virtualenvs.in-project true
 poetry init
 poetry add fastapi
 poetry add uvicorn
+poetry add pytz
 ```
