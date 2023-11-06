@@ -1,6 +1,0 @@
-[2023-11-06 12:22:20] [INFO] [main] [root] root
-[2023-11-06 12:23:27] [INFO] [main] [root_with_arg] root_with_arg - 1
-[2023-11-06 12:23:41] [INFO] [main] [root_with_arg] root_with_arg - 1
-[2023-11-06 12:24:34] [INFO] [main] [root_with_param] root_with_arg - 12
-[2023-11-06 12:24:43] [INFO] [main] [root_with_arg] root_with_arg - 12
-[2023-11-06 12:27:35] [INFO] [main] [root_with_arg] root_with_arg - 1
