@@ -1,0 +1,25 @@
+version: '3'
+#docker-compose -f ./docker-compose.yml up or docker-compose up
+name: python-basic-api
+services:
+  
+  fn-basic-api:
+    image: fn-basic-api:es
+    container_name: fn-basic-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runtime
+    ports:
+      - 7777:7777
+    volumes:
+      - ${PROJECTS_DIR}/python-fastapi-basic:/app/FN-Basic-Services
+    restart: unless-stopped
+    environment:
+      - ES_HOST=http://host.docker.internal:9209
+    networks:
+      - bridge
+
+networks:
+  bridge:
+    driver: bridge
