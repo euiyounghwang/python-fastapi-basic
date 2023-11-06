@@ -9,4 +9,5 @@ Using Poetry: Create the virtual environment in the same directory as the projec
 poetry config virtualenvs.in-project true
 poetry init
 poetry add fastapi
+poetry add uvicorn
 ```
