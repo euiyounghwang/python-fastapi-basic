@@ -1,4 +1,6 @@
 
+I will use this project as a basic api to build a Docker Instance when testing on k8s
+
 Install Poerty
 ```
 https://python-poetry.org/docs/?ref=dylancastillo.co#installing-with-the-official-installer
