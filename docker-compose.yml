@@ -11,7 +11,7 @@ services:
       dockerfile: Dockerfile
       target: runtime
     ports:
-      - 7777:7777
+      - 17777:7777
     volumes:
       - ${PROJECTS_DIR}/python-fastapi-basic:/app/FN-Basic-Services
     restart: unless-stopped
