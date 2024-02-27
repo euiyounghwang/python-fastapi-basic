@@ -16,7 +16,7 @@ services:
       - ${PROJECTS_DIR}/python-fastapi-basic:/app/FN-Basic-Services
     restart: unless-stopped
     environment:
-      - ES_HOST=http://host.docker.internal:9209
+      - ES_HOST=http://host.docker.internal:9203
     networks:
       - bridge
 
