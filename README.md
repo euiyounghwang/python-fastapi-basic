@@ -17,18 +17,18 @@ The key features are:
 
 I will use this project as a basic api to build a Docker Instance when testing on k8s
 
-Install Poerty
+__Install Poerty__
 ```
 https://python-poetry.org/docs/?ref=dylancastillo.co#installing-with-the-official-installer
 ```
 
-Using Python Virtual Environment
+__Using Python Virtual Environment__ (Or it can be used by `./create_virtual_env.sh` to create virtual environment with Poetry dependencies)
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 ```
 
-Using Poetry: Create the virtual environment in the same directory as the project and install the dependencies:
+__Using Poetry: Create the virtual environment in the same directory as the project and install the dependencies:__
 ```bash
 poetry config virtualenvs.in-project true
 poetry init
