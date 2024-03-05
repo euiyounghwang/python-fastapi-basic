@@ -4,8 +4,8 @@ name: python-basic-api
 services:
   
   fn-basic-api:
-    image: fn-basic-api:es
-    container_name: fn-basic-api
+    image: fn-fastapi-basic-api:es
+    container_name: fn-fastapi-basic-api
     build:
       context: .
       dockerfile: Dockerfile
@@ -13,7 +13,7 @@ services:
     ports:
       - 17777:7777
     volumes:
-      - ${PROJECTS_DIR}/python-fastapi-basic:/app/FN-Basic-Services
+      - ./:/app/FN-Basic-Services
     restart: unless-stopped
     environment:
       - ES_HOST=http://host.docker.internal:9203

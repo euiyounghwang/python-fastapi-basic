@@ -7,7 +7,7 @@ set -eu
 
 docker build \
   -f "$(dirname "$0")/Dockerfile" \
-  -t fn-basic-api:es \
+  -t fn-fastapi-basic-api:es \
   --target runtime \
   "$(dirname "$0")/."
 
